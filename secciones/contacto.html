@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="grid-body">
+        <!-----------HEADER---------->
+
+        <header class="grid-header grid-logo">
+            <a href="index.html"><img src="../multimedia/imagenes/logo.jpg" alt="logo"></a>
+        </header>
+
+        <!-----------NAV---------->
+
+        <nav class="grid-nav">
+            <ul class="grid-pc">
+                <li><a href="../index.html">inicio</a></li>
+                <li><a href="adopcion.html">adopcion</a></li>
+                <li><a href="noticias.html">noticias</a></li>
+                <li><a href="nosotros.html">nosotros</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>
+
+            <!-----------NAV VISTA CELULAR---------->
+
+            <div class="grid-movil">
+                <a href="../index.html"><i class="uil uil-home"></i></a>
+                <a href="adopcion.html"><i class="uil uil-clinic-medical"></i></a>
+                <a href="noticias.html"><i class="uil uil-notes"></i></a>
+                <a href="nosotros.html"><i class="uil uil-question-circle"></i></a>
+                <a href="contacto.html"><i class="uil uil-user"></i></a>
+            </div>
+        </nav>
+
+        <!-----------MAIN---------->
+
+        <main class="grid-main">
+            <h2>Si quieres donar contactanos </h2>
+            <section class="grid-contacto">
+                <form class="contacto__form">
+                    <h3>contactanos</h3>
+                    <div>
+                        <label for="nombre">nombre:</label>
+                        <input type="text" name="nombre" placeholder="escribe tus nombres">
+                    </div>
+                    <div>
+                        <label for="apellido">apellido:</label>
+                        <input type="text" name="apellido" placeholder="escribe tus apellidos">
+                    </div>
+                    <div>
+                        <label for="email">email:</label>
+                        <input type="email" name="email" id="campo-email" placeholder="escribe tu email">
+                    </div>
+                    <div>
+                        <label for="text">mensaje</label>
+                        <textarea name="mensaje" id="mensaje"></textarea>
+                    </div>
+                    <div>
+                        <label>pais</label>
+                        <select name="pais">
+                            <option value="pe">peru</option>
+                            <option value="mx">mexico</option>
+                            <option value="co">colombia</option>
+                            <option value="arg">argentina</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="submit" value="enviar">
+                        <input type="reset" value="limpiar">
+                    </div>
+                    <div>
+                        <div>acepta terminos y condiciones</div>
+                        <input type="checkbox" name="acepta" value="1">
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <!-----------FOOTER---------->
+
+        <footer class="grid-footer">
+            <p>Redes sociales</p>
+            <ul>
+				<li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+				<li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+				<li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+			</ul>
+            <p>CoderHouse</p>
+        </footer>
+
+    </div>
+</body>
+</html>
